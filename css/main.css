@@ -74,13 +74,7 @@ header {
     padding: 0 0;
 }
 
-.container {
-    width: 1000px;
-    margin: 0 auto; /* erased 0px */
-}
-
-
-/* removed header tag */
+/* removed container class since I specified site-container */
 
 /* Logo */
 #logo {
