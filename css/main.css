@@ -58,25 +58,29 @@ a {
 }
 
 .group::after {
-	content: '';
-	clear: both;
-	display: block;
+    content: '';
+    clear: both;
+    display: block;
 }
 
 /* removed empty block */
 #wrapper {
     background: #ffffff url(../img/img05.jpg) repeat;
 } /* changed F's to lower case */
+
+/* Header */
+header {
+    margin: 0 auto;
+    padding: 0 0;
+}
+
 .container {
     width: 1000px;
     margin: 0 auto; /* erased 0px */
 }
 
-/* Header */
-#header-wrapper {
-    overflow: hidden;
-}
 
+/* removed header-wrapper with overflow of 0 */
 #header {
     width: 1000px;
     height: 150px;
