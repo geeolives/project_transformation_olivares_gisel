@@ -153,8 +153,11 @@ header {
     line-height: normal;
 }
 
-#nav li {
-    float: left;
+@media all and (min-width: 500px) {
+    #nav li {
+        display: inline-block;
+        width: 50%;
+    }
 }
 
 #nav a {
