@@ -74,11 +74,8 @@ header {
     padding: 0 0;
 }
 
-/* removed container class since I specified site-container */
-
 /* Logo */
 #logo {
-    float: left;
     width: 300px;
     margin: 0;
     padding: 0;
