@@ -147,7 +147,6 @@ header {
 }
 
 #nav ul {
-    float: right;
     margin: 0;
     padding: 20px 0 0 0; /* removed second and third px after 0 */
     list-style: none;
