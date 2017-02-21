@@ -479,8 +479,8 @@ header {
 
 #banner {
     margin: 0 auto;
-    width: 1000px;
-    background: url(../img/img03.png) no-repeat left bottom;
+    width: 100%;
+    background: url(../img/img03.png) no-repeat left bottom; /* removed no-repeat left bottom from background img in banner */
 }
 
 #banner img {
