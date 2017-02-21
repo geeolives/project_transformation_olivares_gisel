@@ -88,24 +88,6 @@ header {
     font-size: 3.8em;
 }
 
-#logo h1 a {
-    color: #1f1f1f; /* changed F's to lowercase */
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.2); /* added spaces after each number and removed third px of 0 */
-}
-
-#logo p {
-    margin: 0;
-    padding: 0 0 0 0; /* removed px from zeros */
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8e8e8e; /* changed E's to lowercase */
-}
-
-#logo p a {
-    color: #8e8e8e; /* changed E's to lowercase */
-}
-
 #logo a {
     border: none;
     background: none;
