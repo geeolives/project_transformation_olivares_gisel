@@ -80,12 +80,7 @@ header {
 }
 
 
-/* removed header-wrapper with overflow of 0 */
-#header {
-    width: 1000px;
-    height: 150px;
-    margin: 0 auto; /* removed padding */
-}
+/* removed header tag */
 
 /* Logo */
 #logo {
