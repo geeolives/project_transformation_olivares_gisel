@@ -9,7 +9,7 @@ html {
 }
 
 .site-container {
-  max-width: 1000px;
+    max-width: 1000px;
 }
 
 body {
@@ -28,7 +28,7 @@ h3 {
     padding: 0;
     text-transform: uppercase;
     font-weight: normal;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif; /* changed single quotes to double - personal preference */
     font-weight: 200;
     color: #222222;
 }
@@ -55,6 +55,12 @@ ol {
 /* removed empty block */
 a {
     color: #5e5e5e; /* changed E's to lowercase */
+}
+
+.group::after {
+	content: '';
+	clear: both;
+	display: block;
 }
 
 /* removed empty block */
