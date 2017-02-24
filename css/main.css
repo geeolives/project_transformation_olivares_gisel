@@ -108,20 +108,6 @@ nav ul {
     line-height: normal;
 }
 
-@media all and (min-width: 500px) {
-    #nav li {
-        display: inline-block;
-        width: 50%;
-    }
-}
-
-@media all and (min-width: 850px) {
-    #nav li {
-        display: inline-block;
-        width: calc(100% / 5);
-    }
-}
-
 nav a {
     display: block;
     line-height: 100px;
@@ -143,6 +129,20 @@ nav .current_page_item a {
     background: url(../img/img01.jpg) repeat;
     text-decoration: none;
     color: #ffffff; /* changed capital letters to lowercase */
+}
+
+@media all and (min-width: 500px) {
+    #nav li {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 850px) {
+    #nav li {
+        display: inline-block;
+        width: calc(100% / 5);
+    }
 }
 
 /* Banner */
