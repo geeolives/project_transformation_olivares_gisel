@@ -95,13 +95,6 @@ header {
     color: #000000;
 }
 
-/* Splash */
-#splash {
-    width: 960px;
-    height: 300px;
-    margin: 0 auto; /* removed px after 0 */
-}
-
 /* Search */
 #search {
     float: right;
