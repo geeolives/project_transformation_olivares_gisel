@@ -209,14 +209,15 @@ header {
 }
 
 /* Main */
-#main {
+main {
     padding: 0 0 0 0;
 }
 
-.post {
+article {
     overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #e7ebed; /* changed capital letters to lowercase */
+    padding: 0 10px;
 }
 
 .post .title {
