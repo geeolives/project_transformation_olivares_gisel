@@ -141,12 +141,12 @@ header {
 }
 
 /* Navigation */
-#nav {
+nav {
     margin: 0 auto;
     padding: 0;
 }
 
-#nav ul {
+nav ul {
     margin: 0;
     padding: 20px 0 0 0; /* removed second and third px after 0 */
     list-style: none;
@@ -167,7 +167,7 @@ header {
     }
 }
 
-#nav a {
+nav a {
     display: block;
     line-height: 100px;
     margin-right: 1px;
@@ -183,8 +183,8 @@ header {
     border: none;
 }
 
-#nav a:hover,
-#nav .current_page_item a {
+nav a:hover,
+nav .current_page_item a {
     background: url(../img/img01.jpg) repeat;
     text-decoration: none;
     color: #ffffff; /* changed capital letters to lowercase */
