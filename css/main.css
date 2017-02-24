@@ -365,7 +365,7 @@ footer {
     font-family: "Abel", sans-serif;
 }
 
-#footer p {
+footer p {
     margin: 0;
     padding-top: 10px;
     letter-spacing: 1px;
