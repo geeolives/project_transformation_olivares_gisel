@@ -220,18 +220,18 @@ article {
     padding: 0 10px;
 }
 
-.post .title {
+article .title {
     padding: 7px 0 0 0;
     letter-spacing: -1px;
 }
 
-.post .title a {
+article .title a {
     border: none;
     text-decoration: none;
     color: #222222;
 }
 
-.post .meta {
+article .meta {
     margin-bottom: 30px;
     padding: 10px 0 0 0;
     text-align: left;
@@ -240,16 +240,16 @@ article {
     font-weight: 300;
 }
 
-.post .meta .date {
+article .meta .date {
     float: left;
 }
 
-.post .meta .posted {
+article .meta .posted {
     float: right;
 }
 
 /* removed empty block */
-.post .entry {
+article .entry {
     padding: 0 0 40px 0;
     text-align: justify;
 }
@@ -262,7 +262,6 @@ article {
 .more {
     display: block;
     float: left;
-    width: 88px;
     padding: 5px 5px;
     margin-right: 10px;
     background: #222222;
