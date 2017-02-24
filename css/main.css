@@ -341,47 +341,11 @@ aside a:hover {
 
 /* removed empty block */
 
-/* Three Column Footer Content */
-#footer-content {
-    overflow: hidden;
-    width: 1000px;
+/* Footer */
+footer {
     margin: 0 auto;
-    color: #d6e2f0; /* changed capital letters to lowercase */
-}
-
-#footer-content a {
-    color: #92a9b6; /* changed capital letters to lowercase */
-}
-
-#footer-bg {
-    overflow: hidden;
-    padding: 30px 0;
-    background: #e8e8e8; /* changed capital letters to lowercase */
-}
-
-#footer-content h2 {
-    margin: 0;
-    padding: 0 0 20px 0;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-
-#footer-content #fbox1 {
-    float: left;
-    width: 300px;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    float: left;
-    width: 300px;
-}
-
-#footer-content #fbox3 {
-    float: right;
-    width: 300px;
+    padding: 30px 0 30px 0;
+    font-family: "Abel", sans-serif;
 }
 
 /* removed empty block */
