@@ -300,6 +300,7 @@ aside h2 {
 
 aside a {
     border: none;
+    text-decoration: none;
 }
 
 aside a:hover {
