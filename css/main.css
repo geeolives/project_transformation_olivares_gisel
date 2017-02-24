@@ -281,6 +281,18 @@ article .entry {
     text-decoration: none;
 }
 
+@media (min-width: 1000px) {
+    main {
+        float: right;
+        width: calc(100% / 3 * 2);
+    }
+
+    aside {
+        float: left;
+        width: calc(100% / 3);
+    }
+}
+
 /* Sidebar */
 aside {
     margin: 0;
