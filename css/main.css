@@ -132,14 +132,14 @@ nav .current_page_item a {
 }
 
 @media all and (min-width: 500px) {
-    #nav li {
+    nav li {
         display: inline-block;
         width: 50%;
     }
 }
 
 @media all and (min-width: 850px) {
-    #nav li {
+    nav li {
         display: inline-block;
         width: calc(100% / 5);
     }
