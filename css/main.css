@@ -176,7 +176,7 @@ header {
     text-align: center;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2); /* added spaces after the numbers */
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #1f1f1f; /* changed capital letters to lowercase */
