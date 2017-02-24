@@ -95,44 +95,6 @@ header {
     color: #000000;
 }
 
-/* Search */
-#search {
-    float: right;
-    width: 280px;
-    height: 60px;
-    padding: 20px 0 0 0; /* removed px after second 0 */
-}
-
-#search form {
-    height: 41px;
-    margin: 0;
-    padding: 10px 0 0 20px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    width: 170px;
-    padding: 6px 5px 2px 5px;
-    border: 1px solid #e7ebed; /* changed capital letters to lowercase */
-    background: #ffffff; /* changed capital letters to lowercase */
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #5d781d; /* changed capital letters to lowercase */
-}
-
-#search-submit {
-    width: 50px;
-    height: 22px;
-    border: none;
-    background: #b9b9b9; /* changed capital letters to lowercase */
-    color: #000000;
-}
-
 /* Navigation */
 nav {
     margin: 0 auto;
